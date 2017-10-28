@@ -8,6 +8,15 @@ namespace DataBaseProjekt.Model
 {
     class Person
     {
-        
+        public Guid PersonID { get; set; }
+        public int PersonNumber { get; set; }
+        public string Fname { get; set; }
+        public string Lname { get; set; }
+
+        public string Adress { get; set; }
+
+        public string Email { get; set; }
+        public int MobileNumber { get; set; }
+        public virtual Account Account { get; set; }
     }
 }
