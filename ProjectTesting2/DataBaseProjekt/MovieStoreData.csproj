@@ -52,6 +52,7 @@
     <Compile Include="Model\Movies.cs" />
     <Compile Include="Model\Person.cs" />
     <Compile Include="Model\RentedMovies.cs" />
+    <Compile Include="MovieStoreApplicationContext.cs" />
     <Compile Include="TestClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
