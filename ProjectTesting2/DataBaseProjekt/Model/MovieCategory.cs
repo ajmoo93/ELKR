@@ -15,7 +15,7 @@ namespace DataBaseProjekt.Model
         public string CategoryName { get; set; }
         [ForeignKey("Movie")]
         public Guid MovieId { get; set; }
-        public Movies Movies { get; set; }
+        public Movie Movies { get; set; }
 
 
     }

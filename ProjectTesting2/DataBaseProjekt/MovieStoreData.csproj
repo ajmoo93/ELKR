@@ -49,9 +49,9 @@
   <ItemGroup>
     <Compile Include="Model\Account.cs" />
     <Compile Include="Model\MovieCategory.cs" />
-    <Compile Include="Model\Movies.cs" />
+    <Compile Include="Model\Movie.cs" />
     <Compile Include="Model\Person.cs" />
-    <Compile Include="Model\RentedMovies.cs" />
+    <Compile Include="Model\RentedMovie.cs" />
     <Compile Include="MovieStoreApplicationContext.cs" />
     <Compile Include="TestClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

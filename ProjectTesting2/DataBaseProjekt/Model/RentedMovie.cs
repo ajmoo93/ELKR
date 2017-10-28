@@ -9,7 +9,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DataBaseProjekt.Model
 {
-    class RentedMovies
+    class RentedMovie
     {
         public Guid RentalId { get; set; }
         public DateTime RentalDate { get; set; }
@@ -20,6 +20,6 @@ namespace DataBaseProjekt.Model
         public Guid PersonId { get; set; }
 
         public Person Person { get; set; }
-        public Movies Movies { get; set; }
+        public Movie Movies { get; set; }
     }
 }
