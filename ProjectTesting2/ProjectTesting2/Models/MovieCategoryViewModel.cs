@@ -7,5 +7,7 @@ namespace ProjectTesting2.Models
 {
     public class MovieCategoryViewModel
     {
+        public Guid CategoryID { get; set; }
+        public string CategoryName { get; set; }
     }
 }
