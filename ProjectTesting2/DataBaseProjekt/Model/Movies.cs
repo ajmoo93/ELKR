@@ -11,8 +11,11 @@ namespace DataBaseProjekt.Model
         public Guid MovieId { get; set; }
         public string MovieTitle { get; set; }
         public string Director { get; set; }
-        public int MovieStock { get; set; }
-        public string MovieCategory { get; set; }
+        public int RentalDuration { get; set; }
+        public int MovieRating { get; set; }
+        
+
+        public MovieCategory MovieCategory { get; set; }
 
     }
 }

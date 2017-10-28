@@ -8,5 +8,6 @@ namespace DataBaseProjekt.Model
 {
     class Account
     {
+
     }
 }
