@@ -58,12 +58,19 @@
     <Compile Include="Model\Person.cs" />
     <Compile Include="Model\RentedMovie.cs" />
     <Compile Include="MovieStoreApplicationContext.cs" />
+    <Compile Include="Repository\Repository.cs" />
     <Compile Include="TestClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectTesting2\MovieStore.csproj">
+      <Project>{5b3a00ec-89d3-4e87-a56c-dfe26d04837d}</Project>
+      <Name>MovieStore</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

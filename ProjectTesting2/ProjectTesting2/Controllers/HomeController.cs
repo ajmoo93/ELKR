@@ -26,5 +26,9 @@ namespace ProjectTesting2.Controllers
 
             return View();
         }
+        public ActionResult CreatePerson()
+        {
+            return View();
+        }
     }
 }
