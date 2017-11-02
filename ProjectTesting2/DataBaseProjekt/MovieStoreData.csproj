@@ -52,6 +52,7 @@
     <Compile Include="DTO\MovieDTO.cs" />
     <Compile Include="DTO\PersonDTO.cs" />
     <Compile Include="DTO\RentedMoviesDTO.cs" />
+    <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="Model\Account.cs" />
     <Compile Include="Model\MovieCategory.cs" />
     <Compile Include="Model\Movie.cs" />
