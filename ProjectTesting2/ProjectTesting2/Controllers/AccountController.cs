@@ -13,5 +13,18 @@ namespace ProjectTesting2.Controllers
         {
             return View();
         }
+
+        public ActionResult CreateAccount()
+        {
+            return View();
+        }
+        public ActionResult EditAccount()
+        {
+            return View();
+        }
+        public ActionResult DeleteAccount()
+        {
+            return View();
+        }
     }
 }
