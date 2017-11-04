@@ -9,7 +9,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DataBaseProjekt.Model
 {
-    class Account
+    public class Account
     {
         [Key]
         public int AccountID {get;set;}

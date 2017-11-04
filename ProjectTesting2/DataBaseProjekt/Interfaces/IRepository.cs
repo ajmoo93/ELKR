@@ -24,5 +24,8 @@ namespace DataBaseProjekt.Interfaces
         void CreateAccount(AccountDTO dto);
         void EditAccount(AccountDTO dto);
         void DeleteAccount(AccountDTO dto);
+        void CreateMovie(MovieDTO dto);
+        void EditMovie(MovieDTO dto);
+        void DeleteMovie(MovieDTO dto);
     }
 }

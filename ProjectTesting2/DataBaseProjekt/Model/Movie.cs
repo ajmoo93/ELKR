@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataBaseProjekt.Model
 {
-    class Movie
+    public class Movie
     {
         public Guid MovieId { get; set; }
         public string MovieTitle { get; set; }
